@@ -4,7 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
     <title>My CV</title>
   </head>
   <body>
@@ -20,7 +23,7 @@
       <div class="text-sm mx-6 cursor-default">
         <!-- Education -->
         <div class="my-2">
-          <div class="text-lg font-medium">Education</div>
+          <div class="text-lg font-semibold">Education</div>
           <hr class="border-gray-400 mb-1" />
           <div class="flex justify-between">
             <div class="font-semibold">
@@ -43,28 +46,31 @@
 
         <!-- Skils & Certifications-->
         <div class="my-2">
-          <div class="text-lg font-medium">Skills & Certifications</div>
+          <div class="text-lg font-semibold">Skills & Certifications</div>
           <hr class="border-gray-400 mb-1" />
+            <div class="mb-1">
+            <span class="font-medium">Languages:</span> Fluent in Greek, English, German, Russian (native)
+          </div>
           <div class="flex justify-between">
             <!-- TODO: should do breakpoint and then full length -->
-            <div class="w-2xl">
+            <div class="w-2xl font-medium">
               Programming Languages:
-              <span class="font-semibold">
-                Flutter, HTML&CSS, Java (Beginner's Level), SQL (Beginner's
-                Level) JavaScript (Beginner's Level), React (Beginner's Level)
-              </span>
+              <p class="mt-1 text-gray-800">
+                Java <span class="text-sm text-gray-600">(Beginner)</span> | SQL
+                <span class="text-sm text-gray-600">(Beginner)</span> | HTML &
+                CSS | JavaScript
+                <span class="text-sm text-gray-600">(Beginner)</span> | React
+                <span class="text-sm text-gray-600">(Beginner)</span> | Flutter
+              </p>
             </div>
           </div>
-          <div>
-            Languages: Fluent in Greek, English, German, Russian (native)
-          </div>
-          <div>
+          <div class="font-medium">
             Certifications:
-            <ul class="list-disc ml-4">
+            <ul class="list-disc ml-4 space-y-1">
               <li>
                 Coding Factory -
-                <span class="font-normal">In progress </span>(Athens University
-                of Economics and Business)
+                <span class="text-sm text-gray-600">In progress </span>(Athens
+                University of Economics and Business)
               </li>
               <li>
                 JavaScript & React Crash Course (Aegean College Omiros
@@ -79,7 +85,7 @@
         <!-- Work Experience -->
         <div class="my-2">
           <div>
-            <div class="text-lg font-medium">Working Experience</div>
+            <div class="text-lg font-semibold">Working Experience</div>
             <hr class="border-gray-400 mb-1" />
             <div class="my-1">
               <div class="flex justify-between">
@@ -87,22 +93,26 @@
                 <div>Serres, Greece</div>
               </div>
               <div class="flex justify-between">
-                <div class="italic">Office Worker</div>
+                <div class="italic">Content Moderator (German)</div>
                 <div>2024-2025</div>
               </div>
             </div>
-            <ul class="list-disc ml-4">
+            <ul class="list-disc ml-4 space-y-1">
               <li>
-                Participated in projects requiring high accuracy and strong
-                attention to detail
+                Reviewed and processed digital content in German with high
+                accuracy and attention to detail.
               </li>
               <li>
-                Managed daily content operations ή Handled daily content
-                management
+                Ensured compliance with internal guidelines and identified
+                potential risks.
               </li>
               <li>
-                Supported daily operations in a high-demand, confidential
-                environment
+                Worked in a fast-paced, confidential environment, meeting strict
+                KPIs and performance goals.
+              </li>
+              <li>
+                Developed strong analytical, problem-solving, and
+                time-management skills.
               </li>
             </ul>
           </div>
@@ -115,15 +125,22 @@
               <div class="italic">Secretary</div>
               <div>2023</div>
             </div>
-            <ul class="list-disc ml-4">
+            <ul class="list-disc ml-4 space-y-1">
               <li>
-                Began learning programming basics in June, focusing on Flutter
+                Assisted in daily office operations and administrative tasks.
               </li>
               <li>
-                Worked extensively with WordPress
+                Managed and updated website content using WordPress (products,
+                descriptions, and information).
                 <ul>
-                  <li>Managing Products</li>
-                  <li>Adding new ones and updating information</li>
+                  <li>
+                    Gained initial exposure to programming concepts,
+                    experimenting with Flutter.
+                  </li>
+                  <li>
+                    Strengthened organizational and multitasking skills while
+                    supporting the software team.
+                  </li>
                 </ul>
               </li>
             </ul>
@@ -137,15 +154,20 @@
               <div class="italic">Secretary</div>
               <div>2021-2022</div>
             </div>
-            <ul class="list-disc ml-4">
-              <li>Administrative support</li>
-              <li>Organized contracts and ensured compliance</li>
-              <li>Communicated daily with public services</li>
+            <ul class="list-disc ml-4 space-y-1">
               <li>
-                Took calls, informed customers about progress and obtained
-                necessary documents
+                Provided administrative support in daily office operations.
               </li>
-              <li>Use of B-symbolaio software</li>
+              <li>Organized contracts and ensured legal compliance.</li>
+              <li>
+                Handled communication with public services and government
+                offices.
+              </li>
+              <li>
+                Managed incoming calls, informed clients about case progress,
+                and collected required documents.
+              </li>
+              <li>Worked with B-Symbolaio software for document management.</li>
             </ul>
           </div>
           <div class="mb-1">
@@ -157,10 +179,17 @@
               <div class="italic">Guest Relations Officer</div>
               <div>2021</div>
             </div>
-            <ul class="list-disc ml-4">
-              <li>Public relations staff</li>
-              <li>Reception</li>
-              <li>Complaint management and customer service</li>
+            <ul class="list-disc ml-4 space-y-1">
+              <li>
+                Welcomed and assisted guests, ensuring a high-quality customer
+                experience.
+              </li>
+              <li>
+                Handled check-in, reception duties, and complaint resolution.
+              </li>
+              <li>
+                Supported communication between guests and hotel departments.
+              </li>
             </ul>
           </div>
           <div class="mb-1">
@@ -172,13 +201,19 @@
               <div class="italic">Guest Relations Officer</div>
               <div>2021</div>
             </div>
-            <ul class="list-disc ml-4">
-              <li>Reservations officer</li>
-              <li>Assisted reception with various tasks</li>
-              <li>Used hotel management software "Fidelio Suite 8"</li>
-              <li>Customer Service</li>
-              <li>Complaint management</li>
-              <li>Answered quest's inquires about the hotel</li>
+            <ul class="list-disc ml-4 space-y-1">
+              <li>
+                Managed guest reservations and inquiries using Fidelio Suite 8
+                hotel management software.
+              </li>
+              <li>Assisted reception with daily operations and check-ins.</li>
+              <li>
+                Provided customer service and handled complaint management.
+              </li>
+              <li>
+                Supported guests by answering questions and coordinating
+                services.
+              </li>
             </ul>
           </div>
           <div class="mb-1">
@@ -192,13 +227,21 @@
               <div class="italic">Reservations Officer</div>
               <div>2020</div>
             </div>
-            <ul class="list-disc ml-4">
-              <li>Customer Service</li>
-              <li>Administrative support</li>
-              <li>Reservations</li>
-              <li>Organized seating and welcomed guests</li>
-              <li>Ensured the service was organised</li>
-              <li>Responsed to customer's emails before their arrival</li>
+            <ul class="list-disc ml-4 space-y-1">
+              <li>
+                Managed customer reservations and organized seating plans.
+              </li>
+              <li>
+                Welcomed guests and coordinated with the service team to ensure
+                smooth operations.
+              </li>
+              <li>
+                Responded to customer emails and inquiries prior to arrival.
+              </li>
+              <li>
+                Delivered excellent customer service in a luxury dining
+                environment.
+              </li>
             </ul>
           </div>
         </div>
@@ -206,19 +249,20 @@
     </main>
     <footer class="mx-6 mb-2 border-t-1 border-gray-400">
       <div class="mt-3">
-        <a id="arrow-top"
+        <a
+          id="arrow-top"
           class="border px-3 py-2 text-sm rounded-md border hover:bg-stone-700 hover:text-white transition-colors"
           href="https://github.com/anastDev"
           target="_blank"
-          >Github</a
+          >View Github</a
         >
       </div>
     </footer>
     <a
       href="#top"
-      class="fixed bottom-6 right-4 border p-2 rounded-md bg-stone-800 text-white hover:bg-stone-700 transition-discrete "
+      class="fixed bottom-6 right-4 border p-2 rounded-md bg-stone-800 text-white hover:bg-stone-700 transition-discrete"
     >
-     <i class="bi bi-arrow-bar-up"></i>
+      <i class="bi bi-arrow-bar-up"></i>
     </a>
   </body>
 </html>
