@@ -1,6 +1,6 @@
 # My CV
 
-A simple CV page built with **HTML** and **Tailwind CSS**.  
+A simple CV page built with **HTML** and **Tailwind CSS** and **JavaScript** for interactivity and smooth user experience.
 The project is fully responsive and hosted on **GitHub Pages**.
 
 ## 🚀 Live Demo
