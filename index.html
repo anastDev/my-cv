@@ -1,282 +1,487 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Mourouzidou Anastasia — CV</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet"/>
-  <style>
-    body { font-size: 0.875rem; color: #212529; }
-    .section-title {
-      font-size: 1rem;
-      font-weight: 600;
-      border-bottom: 1px solid #212529;
-      padding-bottom: 0.25rem;
-      margin-bottom: 0.5rem;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-    }
-    .entry-tech { font-size: 0.8rem; font-style: italic; color: #6c757d; }
-    .badge-outline {
-      font-size: 0.68rem;
-      font-weight: 500;
-      color: #6c757d;
-      border: 1px solid #ced4da;
-      padding: 0.1rem 0.4rem;
-      border-radius: 3px;
-      vertical-align: middle;
-    }
-    .skill-label { font-weight: 600; font-style: italic; }
-    a { color: #212529; text-decoration: underline; text-underline-offset: 2px; }
-    a:hover { color: #000; }
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mourouzidou Anastasia — CV</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-size: 0.875rem;
+        color: #212529;
+      }
+      .section-title {
+        font-size: 1rem;
+        font-weight: 600;
+        border-bottom: 1px solid #212529;
+        padding-bottom: 0.25rem;
+        margin-bottom: 0.5rem;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+      }
+      .entry-tech {
+        font-size: 0.8rem;
+        font-style: italic;
+        color: #6c757d;
+      }
+      .badge-outline {
+        font-size: 0.68rem;
+        font-weight: 500;
+        color: #6c757d;
+        border: 1px solid #ced4da;
+        padding: 0.1rem 0.4rem;
+        border-radius: 3px;
+        vertical-align: middle;
+      }
+      .skill-label {
+        font-weight: 600;
+        font-style: italic;
+      }
+      a {
+        color: #212529;
+        text-decoration: underline;
+        text-underline-offset: 2px;
+      }
+      a:hover {
+        color: #000;
+      }
 
-    /* Scroll-to-top button */
-    #scrollTopBtn {
-      position: fixed;
-      bottom: 2rem;
-      right: 2rem;
-      width: 2.5rem;
-      height: 2.5rem;
-      border-radius: 50%;
-      background: #495057;
-      color: #fff;
-      border: none;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 1.1rem;
-      opacity: 0;
-      pointer-events: none;
-      transition: opacity 0.25s ease, background 0.2s ease;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.18);
-      z-index: 999;
-      cursor: pointer;
-    }
-    #scrollTopBtn.visible {
-      opacity: 1;
-      pointer-events: auto;
-    }
-    #scrollTopBtn:hover { background: #212529; }
-  </style>
-</head>
-<body>
-<div class="container py-4" style="max-width: 820px;">
+      /* Scroll-to-top button */
+      #scrollTopBtn {
+        position: fixed;
+        bottom: 2rem;
+        right: 2rem;
+        width: 2.5rem;
+        height: 2.5rem;
+        border-radius: 50%;
+        background: #495057;
+        color: #fff;
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.1rem;
+        opacity: 0;
+        pointer-events: none;
+        transition:
+          opacity 0.25s ease,
+          background 0.2s ease;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.18);
+        z-index: 999;
+        cursor: pointer;
+      }
+      #scrollTopBtn.visible {
+        opacity: 1;
+        pointer-events: auto;
+      }
+      #scrollTopBtn:hover {
+        background: #212529;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container py-4" style="max-width: 820px">
+      <!-- HEADER -->
+      <header id="top" class="mb-3">
+        <div class="fs-4 fw-semibold">Mourouzidou Anastasia</div>
+        <div
+          class="text-muted mb-1"
+          style="
+            font-size: 0.78rem;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+          "
+        >
+          Full Stack Developer
+        </div>
+        <div
+          class="d-flex flex-wrap gap-1 align-items-center"
+          style="font-size: 0.82rem; color: #495057"
+        >
+          <span>Gothenburg, Sweden</span>
+          <span class="text-muted">|</span>
+          <a href="mailto:anast.moud@gmail.com">anast.moud@gmail.com</a>
+          <span class="text-muted">|</span>
+          <a href="https://github.com/anastDev" target="_blank">GitHub</a>
+          <span class="text-muted">|</span>
+          <a
+            href="https://www.linkedin.com/in/anastasia-mourouzidou/"
+            target="_blank"
+            >LinkedIn</a
+          >
+        </div>
+      </header>
 
-  <!-- HEADER -->
-  <header id="top" class="mb-3">
-    <div class="fs-4 fw-semibold">Mourouzidou Anastasia</div>
-    <div class="text-muted mb-1" style="font-size:0.78rem;letter-spacing:0.08em;text-transform:uppercase;">Junior Software Engineer</div>
-    <div class="d-flex flex-wrap gap-1 align-items-center" style="font-size:0.82rem;color:#495057;">
-      <span>Gothenburg, Sweden</span>
-      <span class="text-muted">|</span>
-      <a href="mailto:anast.moud@gmail.com">anast.moud@gmail.com</a>
-      <span class="text-muted">|</span>
-      <a href="https://github.com/anastDev" target="_blank">GitHub</a>
-      <span class="text-muted">|</span>
-      <a href="https://www.linkedin.com/in/anastasia-mourouzidou/" target="_blank">LinkedIn</a>
-    </div>
-  </header>
+      <main>
+        <!-- PROFESSIONAL SUMMARY -->
+        <div class="mb-3">
+          <div class="section-title">Professional Summary</div>
+          <p class="mb-0 text-secondary">
+            Full-stack Software Engineer with hands-on experience in Java,
+            Spring Boot, RESTful API development and React/TypeScript, building
+            scalable web applications with a focus on clean architecture,
+            authentication and maintainable backend systems. Experienced in
+            designing and implementing backend services, integrating databases
+            (SQL and NoSQL) and developing full-stack applications with
+            production-style deployment and testing. Comfortable working in
+            Agile, cross-functional teams and motivated to contribute to
+            scalable systems, system design, and modern software development
+            practices.
+          </p>
+        </div>
 
-  <main>
-<!-- PROFESSIONAL SUMMARY -->
-    <div class="mb-3">
-      <div class="section-title">Professional Summary</div>
-      <p class="mb-0 text-secondary">
-        Software engineer with a non-traditional background and a genuine interest in how things are built.
-        I moved into development after hands-on experience with WordPress showed me how much I enjoyed solving problems through code.
-        I built my foundation through a combination of formal training and self-directed learning, including an intensive 8-month full-stack bootcamp
-        at Athens University of Economics and Business, and continue developing independently across the full stack.
-        My previous experience in fast-paced, people-facing environments gave me strong communication skills, structured thinking and composure under pressure.
-        I am looking for an environment where I can keep growing, contribute from day one and develop into a well-rounded engineer.
-      </p>
-    </div>
- 
-    <!-- TECHNICAL SKILLS -->
-    <div class="mb-3">
-      <div class="section-title">Technical Skills</div>
-      <p class="mb-1"><span class="skill-label">Core Stack:</span> <span class="text-secondary">React, TypeScript, Node.js, Express.js, Java and Spring Boot</span></p>
-      <p class="mb-1"><span class="skill-label">API &amp; Backend Design:</span> <span class="text-secondary">RESTful API Design, JWT Authentication, Zod Validation and Swagger / OpenAPI</span></p>
-      <p class="mb-1"><span class="skill-label">Databases:</span> <span class="text-secondary">MongoDB (NoSQL), MySQL (SQL), MongoDB Atlas and Firebase</span></p>
-      <p class="mb-1"><span class="skill-label">Testing:</span> <span class="text-secondary">Unit &amp; Integration Testing (Jest)</span></p>
-      <p class="mb-1"><span class="skill-label">DevOps &amp; Tooling:</span> <span class="text-secondary">Docker (basic), CI/CD (basic), Git, GitHub, VS Code, WebStorm and IntelliJ IDEA</span></p>
-      <p class="mb-1"><span class="skill-label">Methods:</span> <span class="text-secondary">Agile / Scrum</span></p>
-      <p class="mb-0"><span class="skill-label">Also Explored:</span> <span class="text-secondary">Python (Pandas), Flutter (UI prototyping), WordPress CMS and MATLAB (basic)</span></p>
-    </div>
- 
-    <!-- PROJECTS -->
-    <div class="mb-3">
-      <div class="section-title">Projects</div>
- 
-      <div class="mb-2">
-        <div class="mb-1">
-          <span class="fw-semibold"><a href="https://github.com/anastDev/project-hub-backend" target="_blank">Developer Portfolio Backend API</a></span>
-          <span class="text-muted mx-1">|</span>
-          <span class="entry-tech">Node.js, Express, MongoDB, JWT, Zod, Swagger and Jest</span>
+        <!-- TECHNICAL SKILLS -->
+        <div class="mb-3">
+          <div class="section-title">Languages &amp; Frameworks:</div>
+          <p class="mb-1">
+            <span class="skill-label">Core Stack:</span>
+            <span class="text-secondary"
+              >React, TypeScript, Node.js, Express.js, Java and Spring
+              Boot</span
+            >
+          </p>
+          <p class="mb-1">
+            <span class="skill-label">API &amp; Backend Development:</span>
+            <span class="text-secondary"
+              >RESTful API Design, JWT Authentication, Zod Validation and
+              Swagger / OpenAPI</span
+            >
+          </p>
+          <p class="mb-1">
+            <span class="skill-label">Databases:</span>
+            <span class="text-secondary"
+              >MongoDB (NoSQL), MySQL (SQL), PostgreSQL</span
+            >
+          </p>
+          <p class="mb-1">
+            <span class="skill-label">Testing:</span>
+            <span class="text-secondary"
+              >Unit &amp; Integration Testing (Jest)</span
+            >
+          </p>
+          <p class="mb-1">
+            <span class="skill-label">DevOps &amp; Deployment:</span>
+            <span class="text-secondary"
+              >Git, GitHub, Postman, Cloud Deployment, Environment-based
+              Configuration (dev/prod), Production Deployment (Railway, Render,
+              Firebase, GitHub Pages)</span
+            >
+          </p>
+          <p class="mb-0">
+            <span class="skill-label">Methods & Patterns:</span>
+            <span class="text-secondary"
+              >Agile workflows, clean architecture, OOP principles, scalable
+              system design fundamentals</span
+            >
+          </p>
         </div>
-        <ul class="ms-3 mb-0">
-          <li>Designed and built a production-style RESTful API with role-based JWT authentication and request validation via Zod.</li>
-          <li>Documented all endpoints using Swagger/OpenAPI and achieved comprehensive coverage with unit and integration tests in Jest.</li>
-        </ul>
-      </div>
- 
-      <div class="mb-2">
-        <div class="mb-1">
-          <span class="fw-semibold"><a href="https://github.com/anastDev/react-projects-hub" target="_blank">Developer Portfolio</a></span>
-          <span class="text-muted mx-1">|</span>
-          <span class="entry-tech">React, TypeScript and Framer Motion</span>
-        </div>
-        <ul class="ms-3 mb-0">
-          <li>Built a fully responsive personal portfolio showcasing projects and GitHub repositories with reusable component architecture.</li>
-          <li>Implemented smooth page transitions and micro-animations with Framer Motion for a polished user experience.</li>
-        </ul>
-      </div>
- 
-      <div class="mb-2">
-        <div class="mb-1">
-          <span class="fw-semibold"><a href="https://github.com/anastDev/react-projects-hub/tree/main/src/projects/commute-risk-dashboard" target="_blank">Commute Risk Dashboard</a></span>
-          <span class="badge-outline ms-1">In Progress</span>
-          <span class="text-muted mx-1">|</span>
-          <span class="entry-tech">React and External API Integration</span>
-        </div>
-        <ul class="ms-3 mb-0">
-          <li>Integrating real-time weather API data to assess multi-modal commute risk (public transport, cycling and walking).</li>
-        </ul>
-      </div>
- 
-      <div class="mb-2">
-        <div class="mb-1">
-          <span class="fw-semibold">Library App</span>
-          <span class="badge-outline ms-1">In Progress</span>
-          <span class="text-muted mx-1">|</span>
-          <span class="entry-tech">Java, Spring Boot, SQL and REST API</span>
-        </div>
-        <ul class="ms-3 mb-0">
-          <li>Refactoring a console-based Java project into a full Spring Boot backend using Controller–Service–Repository architecture.</li>
-          <li>Adding RESTful endpoints and SQL database integration to support scalable and testable backend design.</li>
-        </ul>
-      </div>
- 
-      <div class="mb-0">
-        <div class="mb-1">
-          <span class="fw-semibold"><a href="https://github.com/anastDev/python-projects" target="_blank">Python Projects</a></span>
-          <span class="text-muted mx-1">|</span>
-          <span class="entry-tech">Python and Pandas</span>
-        </div>
-        <ul class="ms-3 mb-0">
-          <li>Collection of projects showcasing data analysis, automation and utility development.</li>
-        </ul>
-      </div>
-    </div>
- 
-    <!-- WORK EXPERIENCE -->
-    <div class="mb-3">
-      <div class="section-title">Work Experience</div>
- 
-      <div class="mb-2">
-        <div class="d-flex justify-content-between">
-          <div class="fw-semibold">Teleperformance Hellas</div>
-          <div class="text-muted">Serres, Greece</div>
-        </div>
-        <div class="d-flex justify-content-between mb-1">
-          <div class="fst-italic">Content Moderator (German)</div>
-          <div class="text-muted">2024 – 2025</div>
-        </div>
-        <ul class="ms-3 mb-0">
-          <li>Reviewed high-volume German-language content with 100% regulatory compliance and applied analytical judgment under time pressure.</li>
-          <li>Achieved high-quality standards in a KPI-driven, confidential environment.</li>
-          <li>Developed structured decision-making skills directly transferable to code review and QA workflows.</li>
-        </ul>
-      </div>
- 
-      <div class="mb-0">
-        <div class="d-flex justify-content-between">
-          <div class="fw-semibold">Administrative &amp; Customer Service Roles</div>
-          <div class="text-muted">Greece</div>
-        </div>
-        <div class="d-flex justify-content-between mb-1">
-          <div class="fst-italic">Secretary / Guest Relations / Reservations</div>
-          <div class="text-muted">2020 – 2023</div>
-        </div>
-        <ul class="ms-3 mb-0">
-          <li>Managed daily office operations, documentation, scheduling and customer communication in a KPI-driven environment.</li>
-          <li>Maintained website content using WordPress and internal CMS while supporting business and legal documentation accuracy.</li>
-          <li>Gained early exposure to software concepts through internal experimentation with Flutter.</li>
-          <li>Developed transferable skills: structured workflows, problem-solving, attention to detail and cross-functional communication.</li>
-        </ul>
-      </div>
-    </div>
- 
-    <!-- EDUCATION -->
-    <div class="mb-3">
-      <div class="section-title">Education &amp; Training</div>
- 
-      <div class="mb-2">
-        <div class="d-flex justify-content-between">
-          <div class="fw-semibold">Coding Factory – Athens University of Economics and Business</div>
-          <div class="text-muted">Greece</div>
-        </div>
-        <div class="d-flex justify-content-between mb-1">
-          <div class="fw-medium">Full-Stack Software Development Program (8-Month Intensive)</div>
-          <div class="text-muted">2025</div>
-        </div>
-        <div class="fst-italic text-muted mb-1">Intensive 8-month program covering backend and frontend development.</div>
-        <ul class="ms-3 mb-0">
-          <li>Developed full-stack applications using Java, Spring Boot, Node.js, React, Angular and SQL/NoSQL databases.</li>
-          <li>Built RESTful APIs with JWT authentication and applied OOP principles, layered architecture and Git version control.</li>
-          <li>Worked in Agile teams practising sprint planning, code reviews and iterative delivery.</li>
-        </ul>
-      </div>
- 
-      <div class="mb-0">
-        <div class="fw-semibold">Bachelor of Arts in Translation</div>
-        <div class="d-flex justify-content-between">
-          <div>Department of Foreign Languages, Translation and Interpreting</div>
-          <div class="text-muted">Corfu, Greece</div>
-        </div>
-        <div class="d-flex justify-content-between">
-          <div>Ionian University</div>
-          <div class="text-muted">2016 – 2022</div>
-        </div>
-      </div>
-    </div>
- 
-    <!-- LANGUAGES -->
-    <div class="mb-2">
-      <div class="section-title">Languages</div>
-      <ul class="d-flex list-unstyled gap-4 mb-0">
-        <li>Greek <span class="text-muted">(Native)</span></li>
-        <li>English <span class="text-muted">(Fluent)</span></li>
-        <li>German <span class="text-muted">(Intermediate)</span></li>
-        <li>Russian <span class="text-muted">(Basic)</span></li>
-      </ul>
-    </div>
- 
-  </main>
-</div>
- 
-<!-- FOOTER: Scroll to top -->
-<footer>
-  <button id="scrollTopBtn" onclick="scrollToTop()" aria-label="Back to top" title="Back to top">
-    <i class="bi bi-arrow-up"></i>
-  </button>
-</footer>
- 
-<script>
-  const btn = document.getElementById('scrollTopBtn');
- 
-  window.addEventListener('scroll', () => {
-    if (window.scrollY > 300) {
-      btn.classList.add('visible');
-    } else {
-      btn.classList.remove('visible');
-    }
-  });
- 
-  function scrollToTop() {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  }
-</script>
 
-</body>
+        <!-- PROJECTS -->
+        <div class="mb-3">
+          <div class="section-title">Projects</div>
+
+          <div class="mb-2">
+            <div class="mb-1">
+              <span class="fw-semibold"
+                ><a
+                  href="https://github.com/anastDev/project-hub-backend"
+                  target="_blank"
+                  >Developer Portfolio Backend API</a
+                ></span
+              >
+              <span class="text-muted mx-1">|</span>
+              <span class="entry-tech"
+                >Node.js, Express, MongoDB, JWT, Zod, Swagger and Jest</span
+              >
+            </div>
+            <ul class="ms-3 mb-0">
+              <li>
+                Designed and built a production-style REST API with
+                authentication and validation.
+              </li>
+              <li>
+                Implemented unit and integration testing across all endpoints.
+              </li>
+              <li>
+                Documented full system using Swagger/OpenAPI and structured
+                backend architecture.
+              </li>
+            </ul>
+          </div>
+
+          <div class="mb-2">
+            <div class="mb-1">
+              <span class="fw-semibold"
+                ><a
+                  href="https://anastdev.github.io/react-projects-hub/#/projects/library-app"
+                  target="_blank"
+                  >Library App</a
+                ></span
+              >
+              <span class="text-muted mx-1">|</span>
+              <span class="entry-tech"
+                >Java, Spring Boot, MySQL, JWT, Swagger, JPA Auditing, Gradle,
+                Railway</span
+              >
+            </div>
+            <ul class="ms-3 mb-0">
+              <li>
+                Built a full-stack application with secure authentication and
+                role-based access control.
+              </li>
+              <li>
+                Designed RESTful APIs using layered architecture with focus on
+                maintainability and scalability.
+              </li>
+              <li>
+                Integrated frontend and backend with clean API contracts and
+                deployed application to production environment
+              </li>
+            </ul>
+          </div>
+
+          <div class="mb-2">
+            <div class="mb-1">
+              <span class="fw-semibold"
+                ><a
+                  href="https://github.com/anastDev/react-projects-hub"
+                  target="_blank"
+                  >Developer Portfolio</a
+                ></span
+              >
+              <span class="text-muted mx-1">|</span>
+              <span class="entry-tech"
+                >React, TypeScript and Framer Motion</span
+              >
+            </div>
+            <ul class="ms-3 mb-0">
+              <li>
+                Built a fully responsive personal portfolio showcasing projects
+                and GitHub repositories with reusable component architecture.
+              </li>
+              <li>
+                Implemented smooth page transitions and micro-animations with
+                Framer Motion for a polished user experience.
+              </li>
+            </ul>
+          </div>
+
+          <div class="mb-2">
+            <div class="mb-1">
+              <span class="fw-semibold"
+                ><a
+                  href="https://github.com/anastDev/react-projects-hub/tree/main/src/projects/commute-risk-dashboard"
+                  target="_blank"
+                  >Road Radar Dashboard</a
+                ></span
+              >
+              <span class="text-muted mx-1">|</span>
+              <span class="entry-tech">React, Trafikverket API, MyMemory API, Leaflet</span>
+            </div>
+            <ul class="ms-3 mb-0">
+              <li>
+                Built a real-time dashboard combining multiple external data
+                sources.
+              </li>
+              <li>
+                Designed interactive UI for interpreting real-world conditions.
+              </li>
+              <li>
+                Implemented filtering and data transformation logic for
+                usability.
+              </li>
+            </ul>
+          </div>
+
+          <div class="mb-0">
+            <div class="mb-1">
+              <span class="fw-semibold"
+                ><a
+                  href="https://anastdev.github.io/react-projects-hub/#/projects/dev-tools"
+                  target="_blank"
+                  >Dev Tools</a
+                ></span
+              >
+              <span class="text-muted mx-1">|</span>
+              <span class="entry-tech">Gemini API, React, TypeScript, Node.js, Express</span>
+            </div>
+            <ul class="ms-3 mb-0">
+              <li>
+               Built a full-stack developer productivity tool integrating external AI APIs.
+              </li>
+              <li>
+                Designed scalable backend structure for future feature expansion.
+              </li>
+              <li>
+                Focused on improving developer workflow efficiency and automation.
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- WORK EXPERIENCE -->
+        <div class="mb-3">
+          <div class="section-title">Work Experience</div>
+
+          <div class="mb-2">
+            <div class="d-flex justify-content-between">
+              <div class="fw-semibold">Teleperformance Hellas</div>
+              <div class="text-muted">Serres, Greece</div>
+            </div>
+            <div class="d-flex justify-content-between mb-1">
+              <div class="fst-italic">Content Moderator (German)</div>
+              <div class="text-muted">2024 – 2025</div>
+            </div>
+            <ul class="ms-3 mb-0">
+              <li>
+                Reviewed high-volume German-language content with 100%
+                regulatory compliance and applied analytical judgment under time
+                pressure.
+              </li>
+              <li>
+                Achieved high-quality standards in a KPI-driven, confidential
+                environment.
+              </li>
+              <li>
+                Developed structured decision-making skills directly
+                transferable to code review and QA workflows.
+              </li>
+            </ul>
+          </div>
+
+          <div class="mb-0">
+            <div class="d-flex justify-content-between">
+              <div class="fw-semibold">
+                Administrative &amp; Customer Service Roles
+              </div>
+              <div class="text-muted">Greece</div>
+            </div>
+            <div class="d-flex justify-content-between mb-1">
+              <div class="fst-italic">
+                Secretary / Guest Relations / Reservations
+              </div>
+              <div class="text-muted">2020 – 2023</div>
+            </div>
+            <ul class="ms-3 mb-0">
+              <li>
+                Managed daily office operations, documentation, scheduling and
+                customer communication in a KPI-driven environment.
+              </li>
+              <li>
+                Maintained website content using WordPress and internal CMS
+                while supporting business and legal documentation accuracy.
+              </li>
+              <li>
+                Gained early exposure to software concepts through internal
+                experimentation with Flutter.
+              </li>
+              <li>
+                Developed transferable skills: structured workflows,
+                problem-solving, attention to detail and cross-functional
+                communication.
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- EDUCATION -->
+        <div class="mb-3">
+          <div class="section-title">Education &amp; Training</div>
+
+          <div class="mb-2">
+            <div class="d-flex justify-content-between">
+              <div class="fw-semibold">
+                Coding Factory – Athens University of Economics and Business
+              </div>
+              <div class="text-muted">Greece</div>
+            </div>
+            <div class="d-flex justify-content-between mb-1">
+              <div class="fw-medium">
+                Full-Stack Software Development Program (8-Month Intensive)
+              </div>
+              <div class="text-muted">2025</div>
+            </div>
+            <div class="fst-italic text-muted mb-1">
+              Intensive 8-month program covering backend and frontend
+              development.
+            </div>
+            <ul class="ms-3 mb-0">
+              <li>
+                Developed full-stack applications using Java, Spring Boot,
+                Node.js, React, Angular and SQL/NoSQL databases.
+              </li>
+              <li>
+                Built RESTful APIs with JWT authentication and applied OOP
+                principles, layered architecture and Git version control.
+              </li>
+              <li>
+                Worked in Agile teams practising sprint planning, code reviews
+                and iterative delivery.
+              </li>
+            </ul>
+          </div>
+
+          <div class="mb-0">
+            <div class="fw-semibold">Bachelor of Arts in Translation</div>
+            <div class="d-flex justify-content-between">
+              <div>
+                Department of Foreign Languages, Translation and Interpreting
+              </div>
+              <div class="text-muted">Corfu, Greece</div>
+            </div>
+            <div class="d-flex justify-content-between">
+              <div>Ionian University</div>
+              <div class="text-muted">2016 – 2022</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- LANGUAGES -->
+        <div class="mb-2">
+          <div class="section-title">Languages</div>
+          <ul class="d-flex list-unstyled gap-4 mb-0">
+            <li>Greek <span class="text-muted">(Native)</span></li>
+            <li>English <span class="text-muted">(Fluent)</span></li>
+            <li>German <span class="text-muted">(Intermediate)</span></li>
+            <li>Russian <span class="text-muted">(Basic)</span></li>
+          </ul>
+        </div>
+      </main>
+    </div>
+
+    <!-- FOOTER: Scroll to top -->
+    <footer>
+      <button
+        id="scrollTopBtn"
+        onclick="scrollToTop()"
+        aria-label="Back to top"
+        title="Back to top"
+      >
+        <i class="bi bi-arrow-up"></i>
+      </button>
+    </footer>
+
+    <script>
+      const btn = document.getElementById("scrollTopBtn");
+
+      window.addEventListener("scroll", () => {
+        if (window.scrollY > 300) {
+          btn.classList.add("visible");
+        } else {
+          btn.classList.remove("visible");
+        }
+      });
+
+      function scrollToTop() {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      }
+    </script>
+  </body>
 </html>
